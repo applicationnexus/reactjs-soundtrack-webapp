@@ -1,0 +1,160 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+* {
+  font-family: 'Montserrat';
+}
+
+.container {
+  margin-top: 2em;
+}
+
+.login,
+.sign-up {
+  button {
+    background-color: #2d2b55 !important;
+    border: 0;
+  }
+}
+
+a.nav-link {
+  color: #fff;
+  font-size: 1em;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40%;
+  pointer-events: none;
+}
+
+.login,
+.sign-up {
+  text-align: center;
+  margin-top: 4em;
+
+  form {
+    width: 50%;
+    margin: auto;
+    text-align: left;
+  }
+
+  .alert-danger {
+    padding: 0.5em 0;
+    color: #ff0000;
+    background-color: unset;
+    border: none;
+  }
+}
+
+.alert-danger {
+  padding: 0.5em 0 !important;
+  color: #ff0000 !important;
+  background-color: unset !important;
+  border: none !important;
+}
+
+.sound-card {
+  background-color: #fff;
+  padding: 2em;
+  margin: 1em;
+  box-shadow: 2px 1px 5px 2px #ccc;
+
+  .thumb-div {
+    cursor: pointer;
+  }
+
+  .green {
+    color: green;
+  }
+}
+
+.liked-tracks,
+.created-tracks {
+  .card {
+    padding: 0.5em;
+  }
+}
+
+// .fab-icon {
+//   button {
+//     position: absolute;
+//     color: #fff;
+//     background-color: orange !important;
+//     border-radius: 30px;
+//     box-shadow: 1px solid #eee;
+//     padding: 10px 15px;
+//     right: 50px;
+//     bottom: 0;
+//   }
+// }
+
+.liked-track {
+  color: #e60087;
+}
+
+.logo {
+  width: 40px;
+}
+
+.profile-pic {
+  width: 50px;
+  cursor: pointer;
+}
+
+.profile-tabs {
+  li {
+    width: 50%;
+  }
+
+  .nav-link {
+    color: #495057;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #2d2b55;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  color: #fff;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.footer {
+  background-color: #2d2b55;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.footer p {
+  margin: 1em;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

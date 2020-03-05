@@ -1,4 +1,4 @@
-# reactjs-soundtrack-webapp
+# Soundtrack Web app created using ReactJS
 
 Soundtrack app created using Reactjs and Bootstrap
 
